@@ -41,7 +41,7 @@
 
 .text-section{
   width: 100%;
-  max-width: 800px; 
+  max-width: 50rem; 
   padding: 1rem; 
   background-color:  #E3CFCF;
   display:flex;
@@ -51,7 +51,7 @@
 
 .text-section__content{
   width: 100%;
-  max-width: 800px; 
+  max-width: 50rem; 
   padding: 1rem; 
   height:auto;
   display:flex;
@@ -63,7 +63,7 @@
 }
 
 .text-section__title{
-gap: 24px;
+gap: 1.5rem;
 opacity: 0px;
 display:flex;
 
@@ -110,7 +110,7 @@ display:flex;
 }
 
 .image-text__expandable--open {
-  max-height: 500px; /* Adjust based on content */
+  max-height: 31.25rem; /* Adjust based on content */
 }
 /* Custom Element Styles */
 .reveal-section {
@@ -129,7 +129,7 @@ display:flex;
 
 
 .image-text__expandable--open {
-  max-height: 500px; /* Adjust based on content */
+  max-height: 31.25rem; /* Adjust based on content */
 }
 
 .image-text__expandable{
@@ -188,16 +188,16 @@ display:flex;
   }
   
   .section{
-    width:1440px;
-    height:576px;
+    width:90rem;
+    height:36rem;
     display:flex;
     
   }
   
   /*Index page*/
   .hero-section{
-    width:720px;
-    height:576px;
+    width:45rem;
+    height:36rem;
     display:flex; 
     
   }
@@ -205,14 +205,14 @@ display:flex;
     margin-right: auto;
   }
   .img{
-    width:720px;
-    height:576px;
+    width:45rem;
+    height:36rem;
     border-radius: 1px;
   }
   
   .text-section{
-    width:720px;
-    height:576px;
+    width:45rem;
+    height:36rem;
     background-color:  #E3CFCF;
     display:flex;
     align-items: center;
@@ -220,8 +220,8 @@ display:flex;
   }
   
   .text-section__content{
-    width:512px;
-    gap:24px;
+     width:32rem;
+    gap:1.5rem;
     height:auto;
     display:flex;
     align-items: center;
@@ -234,7 +234,7 @@ display:flex;
   
   .text-section__title{
   gap: 1.5rem;
-  opacity: 0px;
+  
   display:flex;
   
   }
@@ -243,13 +243,13 @@ display:flex;
   .title{
     font-weight: 275;
     font-size:2rem;
-    line-height: 41.6px;
+    line-height: 2.6rem;
     color:#000000;
     
   }
   
   
-  /* Naknadno dodano */
+  
   
   
   .text-section__button {
