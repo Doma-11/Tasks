@@ -59,12 +59,12 @@ body{
 .gumb{
   background-color: transparent;
   border: none;
-  color: black; /* Adjust color as needed */
-  font-size: 0.75rem; /* Adjust font size */
+  color: black; 
+  font-size: 0.75rem; 
   font-weight: bold;
   cursor: pointer;
   position: relative;  
-  border-bottom: 1px solid black; /* Line at the bottom */
+  border-bottom: 1px solid black; 
 }
 .image-gallery{
   width:100%;
@@ -91,7 +91,7 @@ body{
 }
 .image-gallery__graphic--top-left{
   position: absolute;
-  width: 10rem; /* Size of the graphical detail */
+  width: 10rem; 
   height: 10rem;
   transform: translate(-60%,-60%);
 }
@@ -103,10 +103,10 @@ body{
   transform:scaleX(-1.1);
 } 
 .image-gallery__imageOne {
-  width: 22.5rem; /* Set the desired width */
-  height: 22.5rem; /* Set the same height to make it a square */
-  border-radius: 50%; /* Make it a circle */
-  object-fit: cover; /* Ensure the image fits the circle nicely */
+  width: 22.5rem; 
+  height: 22.5rem; 
+  border-radius: 50%; 
+  object-fit: cover; 
 }
 /* Second image */
 .image-gallery__item--second{
@@ -121,7 +121,7 @@ body{
 }
 .image-gallery__graphic--top-right{
   position: absolute;
-  width: 10rem; /* Size of the graphical detail */
+  width: 10rem;
   height: 10rem;
   top: 0;
   right: 0;
@@ -136,7 +136,7 @@ body{
 } 
 .image-gallery__graphic--bottom-left{
   position: absolute;
-  width: 10rem; /* Size of the graphical detail */
+  width: 10rem;
   height: 10rem;
   bottom: 0;
   left: 0;
@@ -150,10 +150,10 @@ body{
 }
 .image-gallery__imageTwo {
   position: relative;
-  width: 22.5rem; /* Set the desired width */
-  height: 22.5rem; /* Set the same height to make it a square */
-  border-radius: 50%; /* Make it a circle */
-  object-fit: cover; /* Ensure the image fits the circle nicely */
+  width: 22.5rem; 
+  height: 22.5rem; 
+  border-radius: 50%; 
+  object-fit: cover; 
   z-index: 2
 }
 /* Third image */
@@ -169,7 +169,7 @@ body{
 }
 .image-gallery__graphic--bottom-right{
   position: absolute;
-  width: 10rem; /* Size of the graphical detail */
+  width: 10rem; 
   height: 10rem;
   bottom: 0;
   right: 0;
@@ -183,10 +183,10 @@ body{
 }
 .image-gallery__imageThree {
   position: relative;
-  width: 22.5rem; /* Set the desired width */
-  height: 22.5rem; /* Set the same height to make it a square */
-  border-radius: 50%; /* Make it a circle */
-  object-fit: cover; /* Ensure the image fits the circle nicely */
+  width: 22.5rem;
+  height: 22.5rem; 
+  border-radius: 50%; 
+  object-fit: cover; 
   z-index: 2
 }
 
@@ -248,11 +248,11 @@ h3{
   .gumb{
     background-color: transparent;
     border: none;
-    color: black; /* Adjust color as needed */
-    font-size: 1rem; /* Adjust font size */
+    color: black; 
+    font-size: 1rem; 
     font-weight: bold;
     cursor: pointer;
-    border-bottom: 1px solid black; /* Line at the bottom */
+    border-bottom: 1px solid black; 
   }
   .image-gallery{
     width:100%;
@@ -278,7 +278,7 @@ h3{
   }
   .image-gallery__graphic--top-left{
     position: absolute;
-    width: 8.4rem; /* Size of the graphical detail */
+    width: 8.4rem; 
     height: 8.4rem;
     transform: translate(-66%,-66%);
   }
@@ -290,11 +290,11 @@ h3{
     transform:scaleX(-1.1);
   } 
   .image-gallery__imageOne {
-    width: 19rem; /* Set the desired width */
-    height: 19rem; /* Set the same height to make it a square */
-    border-radius: 50%; /* Make it a circle */
+    width: 19rem; 
+    height: 19rem; 
+    border-radius: 50%; 
     
-    object-fit: cover; /* Ensure the image fits the circle nicely */
+    object-fit: cover; 
   }
 
 
@@ -340,10 +340,10 @@ h3{
   
 }
 .image-gallery__imageTwo{
-  width: 19rem; /* Set the desired width */
-  height: 19rem; /* Set the same height to make it a square */
-  border-radius: 50%; /* Make it a circle */
-  object-fit: cover; /* Ensure the image fits the circle nicely */
+  width: 19rem; 
+  height: 19rem; 
+  border-radius: 50%; 
+  object-fit: cover; 
   z-index: 2
 }
 
@@ -362,7 +362,7 @@ h3{
 }
 .image-gallery__graphic--bottom-right{
   position: absolute;
-  width: 9.6rem; /* Size of the graphical detail */
+  width: 9.6rem; 
   height: 9.6rem;
   bottom: 0;
   right: 0;
@@ -376,10 +376,10 @@ h3{
 }
 .image-gallery__imageThree {
   position: relative;
-  width: 16rem; /* Set the desired width */
-  height: 16rem;/* Set the same height to make it a square */
-  border-radius: 50%; /* Make it a circle */
-  object-fit: cover; /* Ensure the image fits the circle nicely */
+  width: 16rem; 
+  height: 16rem;
+  border-radius: 50%; 
+  object-fit: cover;
   z-index: 2
 }
 
